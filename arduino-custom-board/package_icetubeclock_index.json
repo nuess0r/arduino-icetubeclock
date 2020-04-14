@@ -1,0 +1,59 @@
+{
+  "packages":
+  [
+    {
+      "name": "icetubeclock",
+      "maintainer": "nuess0r",
+      "websiteURL": "https://github.com/nuess0r/arduino-icetubeclock",
+      "platforms":
+      [
+        {
+          "name": "Adafruit Ice Tube Clock",
+          "architecture": "avr",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/nuess0r/arduino-icetubeclock/blob/master/arduino-custom-board/IceTubeClock-0.1.0.zip?raw=true",
+          "archiveFileName": "IceTubeClock-0.1.0.zip",
+          "checksum": "SHA-256:b7557845e32c6caf2ba3f05444345187e7c953b0052bd6180db4dfe966313913",
+          "size": "69023",
+          "boards": [
+            {
+              "name": "Ice Tube Clock"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}

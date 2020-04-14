@@ -1,0 +1,31 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+icetubeclock.name=Adafruit Ice Tube Clock
+
+icetubeclock.upload.tool=avrdude
+icetubeclock.upload.protocol=arduino
+
+icetubeclock.bootloader.tool=avrdude
+icetubeclock.bootloader.unlock_bits=0x3F
+icetubeclock.bootloader.lock_bits=0x0F
+
+icetubeclock.build.mcu=atmega168
+icetubeclock.build.f_cpu=32768L
+icetubeclock.build.board=AVR_ICETUBECLOCK
+icetubeclock.build.core=arduino
+icetubeclock.build.variant=icetubeclock
+
+icetubeclock.upload.maximum_size=14336
+icetubeclock.upload.maximum_data_size=1024
+icetubeclock.upload.speed=19200
+
+icetubeclock.bootloader.low_fuses=0xE2
+icetubeclock.bootloader.high_fuses=0xC6
+icetubeclock.bootloader.extended_fuses=0xF9
+icetubeclock.bootloader.file=atmega/ATmegaBOOT_168_icetubeclock.hex
+
+##############################################################
